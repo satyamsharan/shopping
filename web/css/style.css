@@ -1,0 +1,437 @@
+@CHARSET "UTF-8";
+
+#body {
+    margin: 0px;
+    background-color: #ededed;
+}
+
+iframe {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    background: transparent;
+    width: 960px;
+}
+
+#headerDiv {
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    width: 960px;
+    height: 55px;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    -moz-box-shadow: 0px 3px 8px rgb(100, 100, 100);
+    -webkit-box-shadow: 0px 3px 8px rgb(100, 100, 100);
+    box-shadow: 0px 3px 8px rgb(100, 100, 100);
+}
+
+#bodyDiv {
+    background-color: #ffffff;
+    border-top: 90px solid transparent;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-box-shadow: 0px 3px 8px rgb(100, 100, 100);
+    -webkit-box-shadow: 0px 3px 8px rgb(100, 100, 100);
+    box-shadow: 0px 3px 8px rgb(100, 100, 100);
+}
+
+#outerfooterDiv {
+    width: 100%;
+}
+
+#footerDiv {
+    text-align: center;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkred;
+    background-image: url('../images/footer.png');
+    background-position: bottom center;
+}
+#footerTable{
+    width: 100%;	
+}
+
+#aboutIconTD {
+    height: 120px;
+    width: 230px;
+}
+
+#copyrightIconTD {
+    height: 120px;
+    width: 230px;
+}
+
+#feedbackIconTD {
+    height: 120px;
+    width: 230px;
+}
+
+#contactIconTD {
+    height: 120px;
+    width: 230px;
+}
+
+.footerImage {
+    margin-right: auto;
+    margin-left: auto;
+    width: 70px;
+    height: 70px;
+}
+
+.footerIconDiv {
+    width: 100%;
+    height: 45px;
+}
+
+.footerIcon {
+    margin-left: auto;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.rightIcon {
+    width: 35px;
+    height: 35px;
+}
+
+.rightDiv {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+#rightLink {
+    border-color: yellow;
+    border-width:1px;
+    border-style:groove;
+    border-right:none;
+    float: right;
+    padding-top: 10px;
+    background-color: white;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#rightLink:hover{
+    box-shadow: 0 0 5px rgba(0,102,153, 1);
+    -webkit-box-shadow: 0 0 5px rgba(0,102,153, 1);
+    -moz-box-shadow: 0 0 5px rgba(0,102,153, 1);
+    border: 1px solid rgba(0,102,153, 0.8);
+    border-right: none;
+}
+
+#footerLogo {
+    height: 50px;
+    cursor: pointer;
+}
+
+#footerLogoTD {
+
+}
+
+#footerTextTD {
+    padding-left: 30px;
+}
+
+#otherIconTD {
+    width: 160px;
+    text-align: right;
+}
+
+#footerText {
+    text-align: left;
+    color: white;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: x-small;
+}
+
+#feedbackDiv {
+    background-color: transparent;
+
+    width: 35px;
+    height: 100px;
+
+    right: 0px;
+    top: 100px;
+    position: fixed;
+}
+#sideFeedback{
+    cursor: pointer;
+}
+
+#logo {
+    height: 50px;
+}
+
+#headerLogoTD{
+    width: 210px;
+}
+
+#headerLinkTD{
+    width: 100%;
+}
+#headerLink{
+    position:absolute;
+    top:8px;
+    right:0px;
+    height: 25px;
+}
+
+.ShoppingEntryPoint-link{
+    margin-left: auto;
+}
+
+.ShoppingEntryPoint-base{
+    text-align: center;
+    width: 100%;
+}
+
+.PopUpDialog-title{
+    color:white;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: small;
+}
+.PopUpDialog-vp{
+    padding: 5px;
+    background: #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.PopUpDialog-innerVP{
+    background-color: transparent;
+    width: 100%;
+
+}
+.PopUpDialog-Back{
+    background: black;
+    opacity: .3;
+}
+
+.PopUpDialog-closeButton{
+    z-index: 10;
+    cursor: pointer;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+    background-image: url('../images/close.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0px;
+    right: 0px;
+
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+}
+
+/*Header Panner */
+
+.HeaderLink-city a,
+.HeaderLink-home a,
+.HeaderLink-login a,
+.HeaderLink-join a,
+.HeaderLink-dashboard a,
+.HeaderLink-logout a{
+    font: normal normal 14px sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-family: Arial,Helvetica,sans-serif;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.HeaderLink-city a:hover,
+.HeaderLink-home a:hover,
+.HeaderLink-login a:hover,
+.HeaderLink-join a:hover,
+.HeaderLink-dashboard a:hover,
+.HeaderLink-logout:hover a{
+    padding-right: 2px;
+    padding-left: 8px;
+}
+
+
+.HeaderLink-loginPopUp{
+    margin: 30px;
+}
+
+.Login-headerLabel{
+    font-family: sans-serif;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+
+.Login-login{
+    font-family: sans-serif;
+    font-size: small;
+    float: right;
+}
+
+.HeaderLink-joinPopUp{
+    margin: 30px;
+}
+
+.Join-headerLabel{
+    font-family: sans-serif;
+    font-size: larger;
+    text-decoration: underline;
+}
+.Join-textBox,
+.Join-listBox,
+.Login-emailBox,
+.Login-passwordBox{
+
+    border: 1px solid #ddd;
+    padding: 4px 8px;
+    outline: none;
+    font: 12px Tahoma, sans-serif;
+    color: #333;
+    margin: 0;
+    width: 210px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 2px rgba(230, 230, 230, 0.6);
+}
+
+.Join-textBox:focus,
+.Join-listBox:focus,
+.Login-emailBox:focus,
+.Login-passwordBox:focus{
+    border-color: #d0e2f6;
+    color: #444;
+    -moz-box-shadow: 0 0 2px rgba(0,180,255,.6);
+    -webkit-box-shadow: 0 0 2px rgba(0,180,255,.6);
+    box-shadow: 0 0 2px rgba(0,180,255,.6);
+}
+
+.Join-listBox{
+    width: 228px;
+}
+.Join-join{
+    font-family: sans-serif;
+    font-size: small;
+    float: right;
+}
+
+.PageNotFound{
+    text-align: center;
+    width: 960px;
+    margin: auto;
+}
+
+.PageNotFound-img{
+    padding: 60px;
+    padding-left: 330px;
+    padding-right: 330px;
+}
+.Slider-slidingFrame{
+    width:660px; /* Make sure your images are the same size */
+    height:260px; /* Make sure your images are the same size */
+    overflow-y: hidden;
+    background: transparent;
+    border: none;
+
+}
+
+.SearchBar-vp,
+.Home{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.SearchBar-productBox{
+    color: #888888;
+    margin-right: auto;
+    margin-left: auto;
+
+    vertical-align: middle;
+    font: 13px Arial;
+    border: 1px solid #aaa;
+    margin: 0;
+    padding: 6px 0 6px 8px;
+    width: 400px;
+}
+
+.SearchBar-locationBox{
+    color: #888888;
+    margin-right: auto;
+    margin-left: auto;
+
+    vertical-align: middle;
+    font: 13px Arial;
+    border: 1px solid #aaa;
+    margin: 0;
+    padding: 6px 0 6px 8px;
+    width: 400px;
+}
+
+.SearchBar-searchButton{
+    float: right;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Home-searchBar{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Home-hp{
+    margin: auto;
+    width: 960px;
+}
+
+.Home-grocLink{
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    background: transparent url("../images/groc.png") bottom no-repeat;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.Home-loginLink{
+    
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    background: transparent url("../images/login.png") top no-repeat;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.Home-joinLink,
+.Home-registerLink{
+ 
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    background: transparent url("../images/join.png") bottom no-repeat;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+table{
+    margin: auto;
+}
+td{
+    text-align: center;
+}
