@@ -392,11 +392,6 @@ iframe {
     margin-left: auto;
 }
 
-.Home-hp{
-    margin: auto;
-    width: 960px;
-}
-
 .Home-grocLink{
     border: none;
     padding: 0px;
@@ -405,33 +400,4 @@ iframe {
     width: 200px;
     height: 200px;
     cursor: pointer;
-}
-
-.Home-loginLink{
-    
-    border: none;
-    padding: 0px;
-    margin: 0px;
-    background: transparent url("../images/login.png") top no-repeat;
-    width: 200px;
-    height: 200px;
-    cursor: pointer;
-}
-.Home-joinLink,
-.Home-registerLink{
- 
-    border: none;
-    padding: 0px;
-    margin: 0px;
-    background: transparent url("../images/join.png") bottom no-repeat;
-    width: 200px;
-    height: 200px;
-    cursor: pointer;
-}
-
-table{
-    margin: auto;
-}
-td{
-    text-align: center;
 }
