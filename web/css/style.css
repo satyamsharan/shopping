@@ -418,3 +418,12 @@ iframe {
     height: 200px;
     cursor: pointer;
 }
+.Base-feedbackPopUp{
+    margin: 30px;
+}
+
+.Feedback-headerLabel{
+    font-family: sans-serif;
+    font-size: larger;
+    text-decoration: underline;
+}
