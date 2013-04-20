@@ -461,6 +461,15 @@ iframe {
 .Feedback-feedbackArea{
     width: 400px;
     height: 200px;
+    color: #888888;
+    margin-right: auto;
+    margin-left: auto;
+
+    vertical-align: middle;
+    font: 13px Arial;
+    border: 1px solid #aaa;
+    margin: 0;
+    padding: 6px 0 6px 8px;
 }
 .Feedback-name{
     width: 400px;

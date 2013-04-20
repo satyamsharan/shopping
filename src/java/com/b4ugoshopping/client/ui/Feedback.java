@@ -58,7 +58,7 @@ public class Feedback extends VerticalPanel implements PopUpWidget{
 
             @Override
             public void onClick(ClickEvent event) {
-                dialog.hide();
+                dialog.disappear(false);
                 Window.alert("Thanks for the feedback.. :)");
             }
         });
