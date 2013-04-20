@@ -417,6 +417,7 @@ iframe {
     width: 200px;
     height: 200px;
     cursor: pointer;
+    float: right;
 }
 
 .Base-feedbackPopUp{
@@ -455,4 +456,9 @@ iframe {
     font-family: sans-serif;
     font-size: larger;
     text-decoration: underline;
+}
+
+.Feedback-feedbackArea{
+    width: 400px;
+    height: 300px;
 }

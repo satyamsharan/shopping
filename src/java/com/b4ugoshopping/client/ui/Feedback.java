@@ -8,8 +8,12 @@ import com.b4ugoshopping.client.PopUpWidget;
 import com.b4ugoshopping.client.ServerService;
 import com.b4ugoshopping.client.ServerServiceAsync;
 import com.google.gwt.core.client.GWT;
+import com.google.gwt.event.dom.client.ClickEvent;
+import com.google.gwt.event.dom.client.ClickHandler;
+import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Label;
+import com.google.gwt.user.client.ui.TextArea;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
 /**
@@ -22,15 +26,26 @@ public class Feedback extends VerticalPanel implements PopUpWidget{
     
     private Label headerLabel;
     private Button submit;
+    private TextArea feedbackArea;
     public Feedback() {
         setSpacing(5);
         headerLabel= new Label("Feedback");
         submit=new Button("Submit");
-        
+        feedbackArea=new TextArea();
         
         headerLabel.setStyleName("Feedback-headerLabel");
-        add(headerLabel);
+        feedbackArea.setStyleName("Feedback-feedbackArea");
         
+        add(headerLabel);
+        add(feedbackArea);
+        add(submit);
+        submit.addClickHandler(new ClickHandler() {
+
+            @Override
+            public void onClick(ClickEvent event) {
+                Window.alert("Thanks for the feedback.. :)");
+            }
+        });
     }
 
     @Override
