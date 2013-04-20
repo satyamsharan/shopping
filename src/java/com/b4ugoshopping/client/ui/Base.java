@@ -74,4 +74,34 @@ public class Base extends VerticalPanel {
         feedbackPopUp.show();
     }
     
+    public void setAbout() {
+        aboutPopUp = new PopUpDialog("home","home");
+        About abt = new About();
+        abt.setDialog(aboutPopUp);
+        aboutPopUp.set("Feedback", abt);
+        aboutPopUp.setStyleName("Base-aboutPopUp");
+        aboutPopUp.innerVP.setStyleName("Base-aboutPopUp");
+        aboutPopUp.show();
+    }
+    
+    public void setContact() {
+        contactPopUp = new PopUpDialog("home","home");
+        Contact con = new Contact();
+        con.setDialog(contactPopUp);
+        contactPopUp.set("Contact", con);
+        contactPopUp.setStyleName("Base-ContactPopUp");
+        contactPopUp.innerVP.setStyleName("Base-contactPopUp");
+        contactPopUp.show();
+    }
+    
+    public void setCopyright() {
+        copyrightPopUp = new PopUpDialog("home","home");
+        Copyright cpy = new Copyright();
+        cpy.setDialog(feedbackPopUp);
+        copyrightPopUp.set("Copyright", cpy);
+        copyrightPopUp.setStyleName("Base-copyrightPopUp");
+        copyrightPopUp.innerVP.setStyleName("Base-copyrightPopUp");
+        copyrightPopUp.show();
+    }
+    
 }

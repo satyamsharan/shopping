@@ -418,11 +418,40 @@ iframe {
     height: 200px;
     cursor: pointer;
 }
+
 .Base-feedbackPopUp{
     margin: 30px;
 }
+.Base-copyrightPopUp{
+    margin: 30px;
+}
+.Base-contactPopUp{
+    margin: 30px;
+}
+.Base-aboutPopUp{
+    margin: 30px;
+}
+
 
 .Feedback-headerLabel{
+    font-family: sans-serif;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.About-headerLabel{
+    font-family: sans-serif;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.Contact-headerLabel{
+    font-family: sans-serif;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.Copyright-headerLabel{
     font-family: sans-serif;
     font-size: larger;
     text-decoration: underline;
