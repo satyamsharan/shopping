@@ -92,8 +92,8 @@ a:hover, a:active {
 /*nishant code---testing*/
 
 .theme-default #slider {
-    width:650px; /* Make sure your images are the same size */
-    height:250px; /* Make sure your images are the same size */
+    width:935px; /* Make sure your images are the same size */
+    height:248px; /* Make sure your images are the same size */
 }
 .theme-pascal .slider-wrapper,
 .theme-orman .slider-wrapper {
@@ -109,6 +109,6 @@ a:hover, a:active {
 #wrapper,
 BODY{
     
-    width:650px; /* Make sure your images are the same size */
-    height:250px; /* Make sure your images are the same size */
+    width:935px; /* Make sure your images are the same size */
+    height:248px; /* Make sure your images are the same size */
 }

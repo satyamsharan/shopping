@@ -60,4 +60,28 @@ public class Base extends VerticalPanel {
         clear();
         add(dashboard);
     }
+    public void setAbout() {
+        Dashboard dashboard = new Dashboard();
+        clear();
+        add(dashboard);
+    }
+    
+    public void setCopyright() {
+        Dashboard dashboard = new Dashboard();
+        clear();
+        add(dashboard);
+    }
+    
+    public void setFeedback() {
+        Dashboard dashboard = new Dashboard();
+        clear();
+        add(dashboard);
+    }
+    
+    public void setContact() {
+        Dashboard dashboard = new Dashboard();
+        clear();
+        add(dashboard);
+    }
+    
 }

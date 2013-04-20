@@ -347,7 +347,7 @@ iframe {
     padding-right: 330px;
 }
 .Slider-slidingFrame{
-    width:660px; /* Make sure your images are the same size */
+    width:940px; /* Make sure your images are the same size */
     height:260px; /* Make sure your images are the same size */
     overflow-y: hidden;
     background: transparent;
@@ -389,11 +389,21 @@ iframe {
 }
 
 .SearchBar-searchButton{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    background: transparent;
+    background-image: url("../images/submit.png");
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 100px;
     float: right;
     margin-right: auto;
     margin-left: auto;
 }
-
+.SearchBar-searchButton:hover{
+    cursor: pointer;
+}
 .Home-searchBar{
     margin-right: auto;
     margin-left: auto;
