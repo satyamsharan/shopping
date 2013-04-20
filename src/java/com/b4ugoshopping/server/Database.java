@@ -20,7 +20,7 @@ public class Database {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/dbshopping";
-            con = DriverManager.getConnection(url, "root", "hcl123");
+            con = DriverManager.getConnection(url, "shopping", "Password@99");
             statement = con.createStatement();
         } catch (Exception e) {
             throw new Exception(e.getMessage());
