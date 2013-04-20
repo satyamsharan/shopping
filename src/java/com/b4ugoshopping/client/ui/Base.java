@@ -7,7 +7,6 @@ package com.b4ugoshopping.client.ui;
 import com.google.gwt.user.client.Cookies;
 import com.google.gwt.user.client.History;
 import com.google.gwt.user.client.Window;
-import com.google.gwt.user.client.ui.Hyperlink;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
 /**
@@ -18,6 +17,10 @@ public class Base extends VerticalPanel {
 
     PopUpDialog loginPopUp;
     PopUpDialog joinPopUp;
+    PopUpDialog aboutPopUp;
+    PopUpDialog copyrightPopUp;
+    PopUpDialog feedbackPopUp;
+    PopUpDialog contactPopUp;
 
     public Base() {
         
@@ -60,28 +63,15 @@ public class Base extends VerticalPanel {
         clear();
         add(dashboard);
     }
-    public void setAbout() {
-        Dashboard dashboard = new Dashboard();
-        clear();
-        add(dashboard);
-    }
-    
-    public void setCopyright() {
-        Dashboard dashboard = new Dashboard();
-        clear();
-        add(dashboard);
-    }
     
     public void setFeedback() {
-        Dashboard dashboard = new Dashboard();
-        clear();
-        add(dashboard);
-    }
-    
-    public void setContact() {
-        Dashboard dashboard = new Dashboard();
-        clear();
-        add(dashboard);
+        feedbackPopUp = new PopUpDialog("home","home");
+        Feedback f = new Feedback();
+        f.setDialog(feedbackPopUp);
+        feedbackPopUp.set("Feedback", f);
+        feedbackPopUp.setStyleName("Base-feedbackPopUp");
+        feedbackPopUp.innerVP.setStyleName("Base-feedbackPopUp");
+        feedbackPopUp.show();
     }
     
 }

@@ -71,16 +71,8 @@ public class ShoppingEntryPoint implements EntryPoint {
             base.setDashboard();
         }else if(token.equals("logout")){
             base.setLogout();
-        }else if(token.equals("about")){
-            base.setAbout();
-        }else if(token.equals("copyright")){
-            base.setCopyright();
         }else if(token.equals("feedback")){
             base.setFeedback();
-        }else if(token.equals("contact")){
-            base.setContact();
-        }else if(token.equals("")){
-            base.setDashboard();
         }
         
     }
