@@ -167,7 +167,14 @@ iframe {
     position: fixed;
 }
 #sideFeedback{
+    width: 35px;
+    height: 120px;
     cursor: pointer;
+    background: transparent;
+    background-image: url("../images/sideFeedback.png");
+}
+#sideFeedback:hover{
+    background-image: url("../images/sideFeedbackH.png");
 }
 
 #logo {
